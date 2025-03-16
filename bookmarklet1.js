@@ -131,7 +131,7 @@ javascript: (async function () {
   }
 
   async function processPages(numPages, progressUI) {
-    for (let page = 1; page <= numPages; page++) {
+    for (let page = 10; page <= numPages; page += 10) {
       const percent = (page / numPages) * 100;
       progressUI.updateProgress(percent);
       progressUI.updateStatus(`Đang xử lý trang ${page}/${numPages}`);
