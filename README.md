@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-UEH Bookmarklet Helper là bộ công cụ được phát triển để hỗ trợ việc truy cập và tải tài liệu từ thư viện số của Trường Đại học Kinh tế TP.HCM (UEH). Công cụ này cho phép người dùng dễ dàng trích xuất nội dung văn bản và tạo file PDF từ tài liệu trực tuyến.
+UEH Bookmarklet Helper là bộ công cụ dựa trên JavaScript được thiết kế để cải thiện khả năng sử dụng và chức năng của các trang web thông qua bookmarklet. Kho lưu trữ này bao gồm một bộ sưu tập các bookmarklet hữu ích dành cho nhiều nhiệm vụ khác nhau, cải thiện trải nghiệm người dùng và năng suất. Dễ dàng sử dụng và tích hợp, các bookmarklet này có thể được thêm vào trình duyệt của bạn chỉ với một thao tác kéo-thả đơn giản.
 
 ## Tính năng
 
@@ -22,7 +22,7 @@ UEH Bookmarklet Helper là bộ công cụ được phát triển để hỗ tr�
 
 ## Hướng dẫn sử dụng
 
-Xem hướng dẫn chi tiết tại [trang hướng dẫn](./index.html) của chúng tôi.
+Xem hướng dẫn chi tiết tại [trang hướng dẫn](https://ueh-helper.thinhcorner.com/).
 
 ## Cài đặt
 
@@ -32,9 +32,9 @@ Xem hướng dẫn chi tiết tại [trang hướng dẫn](./index.html) của c
 
 ## Lưu ý quan trọng
 
-Công cụ Text Extractor tạo file .txt chứa nội dung thuần văn bản, rất hữu ích để cung cấp cho các công cụ AI như ChatGPT, Claude hay Gemini để xử lý và phân tích nội dung. Trong khi đó, PDF Creator tạo ra file PDF chỉ chứa hình ảnh các trang, phù hợp cho việc xem và in ấn, nhưng không thể được trực tiếp xử lý bởi AI.
+Công cụ Text Extractor tạo file .txt chứa nội dung thuần văn bản, rất hữu ích để cung cấp cho các công cụ AI như ChatGPT, Claude hay Gemini để xử lý và phân tích.
 
-Công cụ này chỉ dành cho mục đích học tập và nghiên cứu. Vui lòng tôn trọng quyền sở hữu trí tuệ và chỉ sử dụng cho tài liệu mà bạn có quyền truy cập hợp pháp.
+Công cụ này chỉ dành cho mục đích học tập và nghiên cứu. Vui lòng tôn trọng quyền sở hữu trí tuệ và chỉ sử dụng cho tài liệu mà bạn có quyền truy cập.
 
 ## Tác giả
 
@@ -50,11 +50,11 @@ Công cụ này chỉ dành cho mục đích học tập và nghiên cứu. Vui 
 
 UEH Bookmarklet Helper được cung cấp "nguyên trạng" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. Tác giả không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng công cụ này.
 
-Người sử dụng chịu hoàn toàn trách nhiệm về việc tuân thủ các quy định về bản quyền và sở hữu trí tuệ. Công cụ này chỉ nên được sử dụng để truy cập và tải xuống nội dung mà người dùng có quyền truy cập hợp pháp và tuân theo các điều khoản sử dụng của thư viện số UEH.
+Người sử dụng chịu hoàn toàn trách nhiệm về việc tuân thủ các quy định về bản quyền và sở hữu trí tuệ. Công cụ này chỉ nên được sử dụng để phục vụ mục đích hợp pháp.
 
-Tác giả không ủng hộ hoặc khuyến khích việc sử dụng công cụ này cho mục đích vi phạm bản quyền, phân phối trái phép hoặc bất kỳ hoạt động bất hợp pháp nào khác. Việc sử dụng công cụ này cho các mục đích như vậy hoàn toàn nằm ngoài ý định của tác giả.
+Tác giả không ủng hộ hoặc khuyến khích việc sử dụng công cụ này cho mục đích vi phạm bản quyền, phân phối trái phép hoặc bất kỳ hoạt động bất hợp pháp nào khác.
 
-UEH Bookmarklet Helper không phải là sản phẩm chính thức của Trường Đại học Kinh tế TP.HCM và không được liên kết, xác nhận hoặc tài trợ bởi trường đại học.
+UEH Bookmarklet Helper không phải là sản phẩm chính thức của Trường Đại học Kinh tế TP.HCM và không được liên kết, xác nhận hoặc tài trợ bởi trường đại học này.
 
 ## Góp ý và báo lỗi
 
