@@ -4,274 +4,229 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UEH Bookmarklet Helper - Hướng Dẫn Sử Dụng</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 20px;
-      color: #333;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
+  <title>UEH Bookmarklet Helper - Hướng Dẫn Sử Dụng (Dark)</title>
 
-    header {
-      background-color: #0066cc;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      border-radius: 5px;
-      margin-bottom: 20px;
-    }
 
-    h1,
-    h2,
-    h3 {
-      color: #0066cc;
-    }
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    header h1 {
-      color: white;
-    }
-
-    .container {
-      background-color: #f9f9f9;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .bookmarklet {
-      background-color: #e9e9e9;
-      padding: 15px;
-      margin: 15px 0;
-      border-left: 4px solid #0066cc;
-      border-radius: 3px;
-    }
-
-    .bookmarklet-link {
-      display: inline-block;
-      background-color: #0066cc;
-      color: white;
-      padding: 10px 15px;
-      text-decoration: none;
-      border-radius: 4px;
-      margin: 10px 0;
-      font-weight: bold;
-    }
-
-    .step {
-      margin-bottom: 20px;
-      padding-left: 20px;
-      border-left: 3px solid #ddd;
-    }
-
-    img {
-      max-width: 100%;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      margin: 10px 0;
-    }
-
-    code {
-      background-color: #f4f4f4;
-      padding: 2px 5px;
-      border-radius: 3px;
-      font-family: Consolas, monospace;
-    }
-
-    .warning {
-      background-color: #fff3cd;
-      border-left: 4px solid #ffc107;
-      padding: 10px;
-      margin: 15px 0;
-    }
-
-    .author-section {
-      background-color: #e6f7ff;
-      padding: 15px;
-      margin: 15px 0;
-      border-left: 4px solid #0066cc;
-      border-radius: 3px;
-    }
-
-    .disclaimer {
-      background-color: #fff0f0;
-      border-left: 4px solid #cc0000;
-      padding: 15px;
-      margin: 20px 0;
-    }
-
-    .disclaimer h3 {
-      color: #cc0000;
-    }
-
-    footer {
-      margin-top: 30px;
-      padding: 20px;
-      text-align: center;
-      background-color: #f0f0f0;
-      border-radius: 5px;
-    }
-  </style>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔖</text></svg>">
+  <script>
+    // Optional: Tailwind configuration
+  </script>
 </head>
 
-<body>
-  <header>
-    <h1>UEH Bookmarklet Helper</h1>
-    <p>Công cụ hỗ trợ truy cập và tải tài liệu từ thư viện số UEH</p>
-  </header>
+<body class="bg-gray-900 font-sans leading-relaxed text-gray-300">
+  <div class="max-w-5xl mx-auto p-5">
 
-  <div class="container">
-    <h2>Giới thiệu</h2>
-    <p>
-      UEH Bookmarklet Helper là bộ công cụ giúp bạn truy cập và tải tài liệu từ thư viện số của Trường Đại học
-      Kinh tế TP.HCM (UEH).
-      Với các bookmarklet này, bạn có thể dễ dàng trích xuất văn bản và tạo file PDF từ tài liệu trực tuyến.
-    </p>
 
-    <h2>Cách cài đặt Bookmarklet</h2>
+    <header class="bg-blue-700 text-white p-6 text-center rounded-lg mb-6 shadow-md">
+      <h1 class="text-3xl font-bold mb-2">UEH Bookmarklet Helper</h1>
+      <p class="text-lg">Công cụ hỗ trợ truy cập và tải tài liệu từ thư viện số UEH</p>
+    </header>
 
-    <div class="step">
-      <h3>Bước 1: Tạo bookmarklet</h3>
-      <p>Kéo liên kết dưới đây vào thanh bookmark của trình duyệt:</p>
 
-      <div class="bookmarklet">
-        <h4>Text Extractor (Trích xuất văn bản)</h4>
-        <a href="#" class="bookmarklet-link" id="text-extractor">Text Extractor</a>
-        <p>Công cụ này sẽ trích xuất nội dung văn bản từ tài liệu và tải xuống dưới dạng file .txt.</p>
+    <main class="bg-gray-800 p-6 rounded-lg shadow-md">
+
+
+      <h2 class="text-2xl font-semibold text-blue-400 mb-4 border-b border-gray-700 pb-2">Giới thiệu</h2>
+      <p class="mb-6 text-gray-300">
+        UEH Bookmarklet Helper là bộ công cụ giúp bạn truy cập và tải tài liệu từ thư viện số của Trường Đại học
+        Kinh tế TP.HCM (UEH).
+        Với các bookmarklet này, bạn có thể dễ dàng trích xuất văn bản và tạo file PDF từ tài liệu trực tuyến.
+      </p>
+
+
+      <div class="bg-yellow-900 border-l-4 border-yellow-600 p-4 my-6 rounded-md">
+        <h3 class="text-lg font-semibold text-yellow-300 mb-2">Lưu ý quan trọng</h3>
+        <p class="text-yellow-200">
+          Công cụ này chỉ dành cho mục đích học tập và nghiên cứu cá nhân. Vui lòng tôn trọng quyền sở hữu trí tuệ và
+          chỉ sử dụng cho tài liệu mà bạn có quyền truy cập hợp pháp theo quy định của thư viện UEH.
+          Không sử dụng công cụ này để vi phạm bản quyền hoặc phân phối tài liệu trái phép.
+        </p>
       </div>
 
-      <div class="bookmarklet">
-        <h4>PDF Creator (Tạo file PDF)</h4>
-        <a href="#" class="bookmarklet-link" id="pdf-creator">PDF Creator</a>
-        <p>Công cụ này sẽ tạo và tải xuống một file PDF từ tài liệu hiện đang xem.</p>
+
+      <div class="bg-red-900 border-l-4 border-red-700 p-4 my-6 rounded-md">
+        <h3 class="text-lg font-semibold text-red-400 mb-2">Từ chối trách nhiệm (Disclaimer)</h3>
+        <p class="text-red-300 mb-2"><strong>QUAN TRỌNG: Vui lòng đọc kỹ phần từ chối trách nhiệm này trước khi sử dụng
+            công cụ.</strong></p>
+        <p class="text-red-300 mb-2">
+          UEH Bookmarklet Helper được cung cấp "nguyên trạng" (as is) mà không có bất kỳ bảo đảm nào. Tác giả không chịu
+          trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng công cụ này.
+        </p>
+        <p class="text-red-300 mb-2">
+          Người sử dụng chịu hoàn toàn trách nhiệm về việc tuân thủ các quy định về bản quyền và sở hữu trí tuệ, cũng
+          như các điều khoản sử dụng của thư viện số UEH.
+        </p>
+        <p class="text-red-300 mb-2">
+          Công cụ này không phải là sản phẩm chính thức của Trường Đại học Kinh tế TP.HCM (UEH) và không được liên kết
+          hay xác nhận bởi trường.
+        </p>
       </div>
-    </div>
 
-    <div class="step">
-      <h3>Bước 2: Sử dụng bookmarklet</h3>
-      <p>Khi đang xem tài liệu trên thư viện số UEH (<a href="https://digital.lib.ueh.edu.vn/"
-          target="_blank">https://digital.lib.ueh.edu.vn/</a>):</p>
-      <ol>
-        <li>Mở tài liệu bạn muốn trích xuất nội dung hoặc tải xuống</li>
-        <li>Nhấp vào bookmarklet tương ứng trên thanh bookmark của trình duyệt</li>
-        <li>Đợi quá trình xử lý hoàn tất (có thể mất vài giây đến vài phút tùy thuộc vào số lượng trang)</li>
-        <li>File sẽ tự động được tải xuống sau khi hoàn tất</li>
-      </ol>
-    </div>
 
-    <h2>Chi tiết về các công cụ</h2>
+      <h2 class="text-2xl font-semibold text-blue-400 mt-6 mb-4 border-b border-gray-700 pb-2">Cách cài đặt Bookmarklet
+      </h2>
+      <div class="mb-6 pl-5 border-l-2 border-gray-600">
+        <h3 class="text-xl font-semibold text-blue-400 mb-3">Bước 1: Tạo bookmarklet</h3>
+        <p class="mb-4 text-gray-300">Kéo các liên kết dưới đây vào thanh bookmark (thanh dấu trang) của trình duyệt:
+        </p>
 
-    <h3>Text Extractor (Trích xuất văn bản)</h3>
-    <p>
-      Công cụ này sẽ trích xuất nội dung văn bản từ tài liệu đang xem và tải xuống dưới dạng file .txt.
-      Quá trình xử lý sẽ được hiển thị trong Console của trình duyệt (mở bằng F12).
-    </p>
-    <p><strong>Mục đích chính:</strong> File .txt được tạo ra có thể được sử dụng để cung cấp cho các công cụ AI như
-      ChatGPT, Claude hoặc Gemini để phân tích, tóm tắt hoặc trích xuất thông tin. Vì AI có thể đọc và hiểu văn
-      bản, không phải hình ảnh, nên định dạng này đặc biệt hữu ích cho việc xử lý tự động và trích xuất thông tin.
-    </p>
-    <p>Chức năng chính:</p>
-    <ul>
-      <li>Trích xuất văn bản từ tài liệu số</li>
-      <li>Làm sạch dữ liệu văn bản</li>
-      <li>Tải xuống dưới dạng file .txt</li>
-      <li>Tạo nội dung thuần văn bản để AI và các công cụ phân tích có thể xử lý</li>
-    </ul>
 
-    <h3>PDF Creator (Tạo file PDF)</h3>
-    <p>
-      Công cụ này sẽ thu thập tất cả các trang của tài liệu, tạo file PDF và tải xuống.
-      Quá trình xử lý sẽ hiển thị trong Console của trình duyệt.
-    </p>
-    <p><strong>Lưu ý quan trọng:</strong> PDF được tạo ra chỉ chứa hình ảnh của các trang ghép lại, không phải văn
-      bản có thể chọn được. Điều này có nghĩa là file PDF phù hợp cho việc đọc và in ấn, nhưng không phù hợp cho
-      việc trích xuất nội dung bằng AI, vì AI không thể xử lý văn bản trong hình ảnh một cách hiệu quả.</p>
-    <p>Chức năng chính:</p>
-    <ul>
-      <li>Thu thập hình ảnh của tất cả trang tài liệu</li>
-      <li>Tạo file PDF với kích thước trang A4</li>
-      <li>Tự động điều chỉnh hình ảnh để vừa với trang PDF</li>
-      <li>Tải xuống file PDF hoàn chỉnh</li>
-    </ul>
+        <div class="bg-gray-700 p-4 my-4 border-l-4 border-blue-500 rounded-md">
+          <h4 class="font-semibold text-lg text-gray-100 mb-1">Text Extractor (Trích xuất văn bản)</h4>
+          <p class="text-sm text-gray-400 mb-3">Công cụ này sẽ trích xuất nội dung văn bản từ tài liệu và tải xuống dưới
+            dạng file <code class="bg-gray-600 text-gray-200 py-0.5 px-1.5 rounded-sm font-mono text-sm">.txt</code>.
+          </p>
+          <a href="javascript:void(0);"
+            class="inline-block bg-blue-600 text-white py-2 px-4 no-underline rounded font-bold hover:bg-blue-700 transition duration-150 text-sm"
+            id="text-extractor">UEH Text Extractor</a>
+        </div>
 
-    <div class="warning">
-      <h3>So sánh hai công cụ</h3>
-      <p>
-        <strong>Text Extractor:</strong> Sử dụng khi bạn cần làm việc với nội dung văn bản, đặc biệt là để cung
-        cấp cho AI phân tích hoặc khi bạn cần trích xuất thông tin cụ thể từ tài liệu.
-      </p>
-      <p>
-        <strong>PDF Creator:</strong> Sử dụng khi bạn cần một bản sao chính xác về hình thức của tài liệu để đọc
-        hoặc in ấn.
-      </p>
-    </div>
 
-    <div class="warning">
-      <h3>Lưu ý quan trọng</h3>
-      <p></p>
-      Công cụ này chỉ dành cho mục đích học tập và nghiên cứu. Vui lòng tôn trọng quyền sở hữu trí tuệ và chỉ
-      sử dụng cho tài liệu mà bạn có quyền truy cập hợp pháp.
-      Không sử dụng công cụ này để vi phạm bản quyền hoặc phân phối tài liệu trái phép.
-      </p>
-    </div>
+        <div class="bg-gray-700 p-4 my-4 border-l-4 border-blue-500 rounded-md">
+          <h4 class="font-semibold text-lg text-gray-100 mb-1">PDF Creator (Tạo file PDF)</h4>
+          <p class="text-sm text-gray-400 mb-3">Công cụ này sẽ tạo và tải xuống một file PDF từ tài liệu hiện đang xem.
+          </p>
+          <a href="javascript:void(0);"
+            class="inline-block bg-blue-600 text-white py-2 px-4 no-underline rounded font-bold hover:bg-blue-700 transition duration-150 text-sm"
+            id="pdf-creator">UEH PDF Creator</a>
+        </div>
+        <p class="text-sm text-gray-500 italic mt-2">Lưu ý: Nhấp chuột phải và chọn "Thêm trang vào dấu trang" hoặc
+          tương tự nếu kéo thả không hoạt động trên trình duyệt của bạn.</p>
+      </div>
 
-    <div class="author-section">
-      <h3>Tác giả</h3>
-      <p>
-        <strong>Ngô Phú Thịnh</strong> (Th1nhNg0)<br>
-        Website: <a href="https://thinhcorner.com" target="_blank">thinhcorner.com</a><br>
-        Email: <a href="mailto:thinhngow@gmail.com">thinhngow@gmail.com</a><br>
-        GitHub: <a href="https://github.com/Th1nhNg0" target="_blank">@Th1nhNg0</a>
-      </p>
-    </div>
 
-    <div class="disclaimer">
-      <h3>Từ chối trách nhiệm</h3>
-      <p><strong>QUAN TRỌNG: Vui lòng đọc kỹ phần từ chối trách nhiệm này trước khi sử dụng công cụ.</strong></p>
-      <p>
-        UEH Bookmarklet Helper được cung cấp "nguyên trạng" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ
-        ý. Tác giả không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng công cụ này.
-      </p>
-      <p></p>
-      Người sử dụng chịu hoàn toàn trách nhiệm về việc tuân thủ các quy định về bản quyền và sở hữu trí tuệ. Công
-      cụ này chỉ nên được sử dụng để truy cập và tải xuống nội dung mà người dùng có quyền truy cập hợp pháp và
-      tuân theo các điều khoản sử dụng của thư viện số UEH.
-      </p>
-      <p>
-        Tác giả không ủng hộ hoặc khuyến khích việc sử dụng công cụ này cho mục đích vi phạm bản quyền, phân
-        phối trái phép hoặc bất kỳ hoạt động bất hợp pháp nào khác. Việc sử dụng công cụ này cho các mục đích
-        như vậy hoàn toàn nằm ngoài ý định của tác giả.
-      </p>
-      <p>
-        UEH Bookmarklet Helper không phải là sản phẩm chính thức của Trường Đại học Kinh tế TP.HCM và không được
-        liên kết, xác nhận hoặc tài trợ bởi trường đại học.
-      </p>
-    </div>
+      <h2 class="text-2xl font-semibold text-blue-400 mt-6 mb-4 border-b border-gray-700 pb-2">Cách sử dụng Bookmarklet
+      </h2>
+      <div class="mb-6 pl-5 border-l-2 border-gray-600">
+        <h3 class="text-xl font-semibold text-blue-400 mb-3">Bước 2: Sử dụng bookmarklet</h3>
+        <p class="mb-2 text-gray-300">Khi đang xem tài liệu trên thư viện số UEH (<a
+            href="https://digital.lib.ueh.edu.vn/" target="_blank"
+            class="text-blue-400 hover:underline">https://digital.lib.ueh.edu.vn/</a>):</p>
+        <ol class="list-decimal pl-6 mb-4 space-y-1 text-gray-300">
+          <li>Mở tài liệu bạn muốn trích xuất nội dung hoặc tải xuống.</li>
+          <li>Nhấp vào bookmarklet tương ứng (UEH Text Extractor hoặc UEH PDF Creator) trên thanh bookmark của trình
+            duyệt.</li>
+          <li>Đợi quá trình xử lý hoàn tất (có thể mất vài giây đến vài phút tùy thuộc vào số lượng trang). Bạn có thể
+            theo dõi tiến trình trong Console của trình duyệt (nhấn F12).</li>
+          <li>File sẽ tự động được tải xuống sau khi hoàn tất.</li>
+        </ol>
+      </div>
+
+
+      <h2 class="text-2xl font-semibold text-blue-400 mt-6 mb-4 border-b border-gray-700 pb-2">Chi tiết về các công cụ
+      </h2>
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-blue-400 mb-2">Text Extractor (Trích xuất văn bản)</h3>
+        <p class="mb-2 text-gray-300">
+          Công cụ này sẽ trích xuất nội dung văn bản từ tài liệu đang xem và tải xuống dưới dạng file <code
+            class="bg-gray-600 text-gray-200 py-0.5 px-1.5 rounded-sm font-mono text-sm">.txt</code>.
+          Quá trình xử lý sẽ được hiển thị trong Console của trình duyệt (mở bằng F12).
+        </p>
+        <p class="mb-2 text-gray-300">
+          <strong>Mục đích chính:</strong> File <code
+            class="bg-gray-600 text-gray-200 py-0.5 px-1.5 rounded-sm font-mono text-sm">.txt</code> được tạo ra có thể
+          được sử dụng để cung cấp cho các công cụ AI như ChatGPT, Claude hoặc Gemini để phân tích, tóm tắt hoặc trích
+          xuất thông tin.
+        </p>
+        <p class="font-medium mb-1 text-gray-200">Chức năng chính:</p>
+        <ul class="list-disc pl-6 mb-3 space-y-1 text-sm text-gray-400">
+          <li>Trích xuất văn bản từ tài liệu số.</li>
+          <li>Làm sạch dữ liệu văn bản cơ bản.</li>
+          <li>Tải xuống dưới dạng file <code
+              class="bg-gray-600 text-gray-200 py-0.5 px-1.5 rounded-sm font-mono text-sm">.txt</code>.</li>
+          <li>Tạo nội dung thuần văn bản để AI và các công cụ phân tích có thể xử lý.</li>
+        </ul>
+      </div>
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold text-blue-400 mb-2">PDF Creator (Tạo file PDF)</h3>
+        <p class="mb-2 text-gray-300">
+          Công cụ này sẽ thu thập tất cả các trang của tài liệu dưới dạng hình ảnh, tạo file PDF và tải xuống.
+          Quá trình xử lý sẽ hiển thị trong Console của trình duyệt.
+        </p>
+
+        <p class="mb-2 bg-yellow-900 border-l-4 border-yellow-600 p-3 rounded-md text-yellow-200">
+          <strong>Lưu ý quan trọng:</strong> PDF được tạo ra chỉ chứa hình ảnh của các trang ghép lại, <strong>không
+            phải văn bản có thể chọn được (non-selectable text)</strong>. File PDF này phù hợp cho việc đọc và in ấn,
+          nhưng không tối ưu cho việc sao chép văn bản hoặc phân tích bằng AI.
+        </p>
+        <p class="font-medium mb-1 text-gray-200">Chức năng chính:</p>
+        <ul class="list-disc pl-6 mb-3 space-y-1 text-sm text-gray-400">
+          <li>Thu thập hình ảnh của tất cả trang tài liệu.</li>
+          <li>Tạo file PDF với kích thước trang A4.</li>
+          <li>Tự động điều chỉnh hình ảnh để vừa với trang PDF.</li>
+          <li>Tải xuống file PDF hoàn chỉnh.</li>
+        </ul>
+      </div>
+
+
+      <div class="bg-blue-900 border-l-4 border-blue-600 p-4 my-6 rounded-md">
+        <h3 class="text-lg font-semibold text-blue-300 mb-2">Khi nào dùng công cụ nào?</h3>
+        <p class="mb-2 text-blue-200">
+          <strong class="text-blue-400">Text Extractor:</strong> Dùng khi bạn cần nội dung văn bản để phân tích (ví dụ:
+          dùng với AI), trích xuất thông tin, hoặc sao chép/dán nội dung.
+        </p>
+        <p class="text-blue-200">
+          <strong class="text-blue-400">PDF Creator:</strong> Dùng khi bạn cần một bản sao tài liệu giống với bản gốc để
+          đọc ngoại tuyến, lưu trữ hoặc in ấn.
+        </p>
+      </div>
+
+
+      <div class="bg-gray-700 p-4 my-6 border-l-4 border-gray-500 rounded-md">
+        <h3 class="text-lg font-semibold text-gray-100 mb-2">Tác giả</h3>
+        <p class="text-gray-300">
+          Website: <a href="https://thinhcorner.com" target="_blank"
+            class="text-blue-400 hover:underline">thinhcorner.com</a><br>
+          GitHub: <a href="https://github.com/Th1nhNg0" target="_blank"
+            class="text-blue-400 hover:underline">@Th1nhNg0</a>
+        </p>
+      </div>
+
+    </main>
+
+
+    <footer class="mt-8 p-5 text-center bg-gray-800 rounded-lg text-sm text-gray-400">
+      <p>&copy; 2024 Ngô Phú Thịnh | UEH Bookmarklet Helper</p>
+    </footer>
+
   </div>
-
-  <footer>
-    <p>&copy; 2024 Ngô Phú Thịnh | UEH Bookmarklet Helper</p>
-  </footer>
 
   <script>
     document.addEventListener('DOMContentLoaded', async function () {
       try {
-        // Load bookmarklet files
-        const [textExtractor, pdfCreator] = await Promise.all([
-          fetch('bookmarklet1.js').then(r => r.text()),
-          fetch('bookmarklet2.js').then(r => r.text())
+        // Load bookmarklet code from external files
+        // Make sure these files exist in the same directory or provide the correct path
+        const [textExtractorCode, pdfCreatorCode] = await Promise.all([
+          fetch('bookmarklet1.js').then(r => { if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`); return r.text(); }),
+          fetch('bookmarklet2.js').then(r => { if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`); return r.text(); })
         ]);
 
-        // Set bookmarklet hrefs
-        document.getElementById('text-extractor').setAttribute('href', textExtractor);
-        document.getElementById('pdf-creator').setAttribute('href', pdfCreator);
+        // Set the href attribute for the bookmarklet links
+        // Ensure the code starts with 'javascript:'
+        const textExtractorHref = textExtractorCode.trim().startsWith('javascript:') ? textExtractorCode.trim() : `javascript:${textExtractorCode.trim()}`;
+        const pdfCreatorHref = pdfCreatorCode.trim().startsWith('javascript:') ? pdfCreatorCode.trim() : `javascript:${pdfCreatorCode.trim()}`;
+
+        document.getElementById('text-extractor').setAttribute('href', textExtractorHref);
+        document.getElementById('pdf-creator').setAttribute('href', pdfCreatorHref);
 
       } catch (err) {
         console.error('Failed to load bookmarklets:', err);
-        alert('Failed to load bookmarklets. Please try again later.');
+        // Inform the user more visibly - Adjusted for dark theme
+        const header = document.querySelector('header');
+        if (header) {
+          const errorDiv = document.createElement('div');
+          // Dark theme error message style
+          errorDiv.className = 'bg-red-900 border border-red-700 text-red-300 px-4 py-3 rounded relative mt-4';
+          errorDiv.setAttribute('role', 'alert');
+          errorDiv.innerHTML = '<strong class="font-bold">Lỗi!</strong><span class="block sm:inline"> Không thể tải mã bookmarklet. Vui lòng kiểm tra Console (F12) hoặc thử tải lại trang.</span>';
+          header.parentNode.insertBefore(errorDiv, header.nextSibling);
+        } else {
+          // Fallback alert (less ideal)
+          alert('Lỗi: Không thể tải mã bookmarklet. Vui lòng thử lại sau.');
+        }
       }
     });
   </script>
